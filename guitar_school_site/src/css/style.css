@@ -1,0 +1,1706 @@
+@charset "UTF-8";
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+/* line 11, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+/* line 31, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 40, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 53, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 64, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 76, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 85, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 95, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 105, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 116, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 125, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 133, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 137, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 148, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 160, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 176, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 186, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 195, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 206, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 218, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 229, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 240, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 253, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 261, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 270, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 280, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 290, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 299, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 308, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 320, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 328, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 339, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 347, ../../../../complited projects/Guitar school/src/sass/normalizez.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 1, ../../../../complited projects/Guitar school/src/sass/resets.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 21, ../../../../complited projects/Guitar school/src/sass/resets.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 25, ../../../../complited projects/Guitar school/src/sass/resets.scss */
+html {
+  height: 100%;
+}
+
+/* line 28, ../../../../complited projects/Guitar school/src/sass/resets.scss */
+body {
+  line-height: 1;
+}
+
+/* line 31, ../../../../complited projects/Guitar school/src/sass/resets.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 34, ../../../../complited projects/Guitar school/src/sass/resets.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 37, ../../../../complited projects/Guitar school/src/sass/resets.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 42, ../../../../complited projects/Guitar school/src/sass/resets.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 3, ../../../../complited projects/Guitar school/src/sass/style.sass */
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "MontserratT";
+  src: url("../font/Montserrat-Regular.ttf");
+  font-weight: regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MontserratT";
+  src: url("../font/Montserrat-SemiBold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 19, ../../../../complited projects/Guitar school/src/sass/style.sass */
+html {
+  font-family: "MontserratT";
+  font-weight: regular;
+}
+
+/* line 23, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 27, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.main-section {
+  background: #F0F0F0;
+  height: 800px;
+  padding-top: 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 33, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.main-section__content-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 37, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.main-section__nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 69px;
+  align-items: center;
+  font-weight: bold;
+}
+
+/* line 44, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.main-section__logo {
+  height: 69px;
+}
+
+/* line 46, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.main-section__first-ellipse {
+  position: absolute;
+  top: 129px;
+  right: 80px;
+}
+
+/* line 50, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.main-section__second-ellipse {
+  position: absolute;
+  right: -120px;
+  top: 650px;
+}
+
+/* line 55, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.nav-menu__list {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 59, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.nav-menu__list-item {
+  margin-right: 64px;
+  font-size: 18px;
+}
+
+/* line 62, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.nav-menu__list-item:last-child {
+  margin-right: 0px;
+}
+
+/* line 64, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.left-wrapper {
+  position: relative;
+}
+
+/* line 66, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.left-wrapper img {
+  width: 883px;
+  position: relative;
+  z-index: 5;
+}
+
+/* line 70, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.left-wrapper__rectangle-blue {
+  width: 565.95px;
+  height: 220px;
+  top: 159px;
+  left: -30px;
+  background: #5290EA;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-64deg);
+  position: absolute;
+  z-index: 2;
+}
+
+/* line 81, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.left-wrapper__rectangle-orange {
+  width: 618.43px;
+  height: 220px;
+  left: -30px;
+  top: 160px;
+  background: #F28B64;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  transform: rotate(-50.81deg);
+  position: absolute;
+  z-index: 3;
+}
+
+/* line 92, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.left-wrapper__rectangle-grey {
+  width: 608.97px;
+  height: 220px;
+  left: 10px;
+  top: 190px;
+  background: #E2E2E2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  transform: rotate(-36.15deg);
+  position: absolute;
+  z-index: 1;
+}
+
+/* line 103, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.right-wrapper {
+  width: 372px;
+  position: absolute;
+  top: 150px;
+  right: 76px;
+  z-index: 5;
+}
+
+/* line 109, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.right-wrapper__icons-box {
+  margin-bottom: 1px;
+  padding-left: 10px;
+}
+
+/* line 112, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.right-wrapper__title {
+  margin-bottom: 5px;
+}
+
+/* line 114, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.right-wrapper__text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* line 118, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.title {
+  font-size: 72px;
+  position: relative;
+  font-weight: bold;
+}
+
+/* line 122, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.title__hr {
+  margin: 0;
+  border: none;
+  border-top: 1px solid black;
+  width: 65px;
+  bottom: 0px;
+  position: ablosute;
+}
+
+/* line 129, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.title_ftr-title {
+  font-size: 60px;
+}
+
+/* line 131, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.icons {
+  display: inline-flex;
+  font-size: 21px;
+}
+
+/* line 133, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.icons__item {
+  border: 1px solid #5290EA;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  margin-right: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 142, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.icons__item:last-child {
+  margin-right: 0;
+}
+
+/* line 144, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.icons__item i {
+  font-size: 21px;
+}
+
+/* line 147, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.buttons {
+  display: inline-flex;
+}
+
+/* line 150, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.buttons__icon-btn {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* line 153, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.buttons__main-btn {
+  margin-right: 32px;
+  width: 200px;
+  height: 60px;
+  background: #F28B64;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* line 164, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.buttons img {
+  margin-right: 12px;
+}
+
+/* line 166, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.buttons img__text {
+  font-size: 16px;
+}
+
+/* line 169, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.ellipse {
+  width: 194px;
+  height: 194px;
+  background: linear-gradient(143.92deg, rgba(237, 123, 80, 0.4) 14.85%, rgba(72, 138, 234, 0.4) 53.25%, rgba(44, 44, 44, 0.4) 85.74%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 150px;
+}
+
+/* line 178, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.ellipse_big {
+  width: 282px;
+  height: 282px;
+}
+
+/* line 181, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.ellipse__subtract {
+  width: 129.33px;
+  height: 129.33px;
+  background: #F0F0F0;
+  border-radius: 150px;
+}
+
+/* line 186, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.ellipse__subtract_white {
+  background: white;
+  width: 129.33px;
+  height: 129.33px;
+  border-radius: 150px;
+}
+
+/* line 191, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.ellipse__subtract_big {
+  width: 188px;
+  height: 188px;
+}
+
+/* line 196, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.second-section {
+  overflow: hidden;
+  position: relative;
+  min-height: 700px;
+  padding-top: 32px;
+}
+
+/* line 201, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.second-section__container {
+  position: relative;
+}
+
+/* line 203, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.second-section__cards-box {
+  padding-top: 40px;
+  display: inline-flex;
+  margin-bottom: 25px;
+}
+
+/* line 207, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.second-section__icons-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* line 210, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.second-section__first-ellipse {
+  position: absolute;
+  top: 15px;
+  right: -70px;
+  z-index: -1;
+  width: 194px;
+}
+
+/* line 216, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.second-section__second-ellipse {
+  position: absolute;
+  top: 317px;
+  left: -72px;
+  z-index: -1;
+}
+
+/* line 221, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.second-section__color {
+  color: white;
+  z-index: 10;
+}
+
+/* line 224, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.cards-item {
+  width: 360px;
+  height: 360px;
+  border-radius: 10px;
+  background: #E2E2E2;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  margin-right: 30px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* line 234, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.cards-item:last-child {
+  margin-right: 0;
+}
+
+/* line 236, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.cards-item__img {
+  width: 197px;
+}
+
+/* line 238, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.cards-item__text {
+  font-size: 36px;
+  text-align: center;
+  transform: rotate(90deg);
+  width: 280px;
+  position: absolute;
+  top: 144px;
+  right: -30px;
+  font-weight: bold;
+}
+
+/* line 247, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.cards-item_orange {
+  background: #F28B64;
+}
+
+/* line 249, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.cards-item_blue {
+  background: #5290EA;
+}
+
+/* line 252, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.icons-box__icons-item {
+  display: inline-flex;
+  align-items: flex-end;
+}
+
+/* line 255, ../../../../complited projects/Guitar school/src/sass/style.sass */
+span {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+/* line 259, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.icons-item__text {
+  font-size: 18px;
+}
+
+/* line 261, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.icons-item__img {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+/* line 267, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.third-section {
+  background: #F0F0F0;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 49px;
+}
+
+/* line 272, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.third-section__container {
+  min-height: 640px;
+  padding-top: 46px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+/* line 278, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.third-section__ring-ellipse {
+  position: absolute;
+  top: -98px;
+  right: -100px;
+}
+
+/* line 283, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.third-section__left-box {
+  display: flex;
+  align-items: center;
+  width: 542px;
+  min-height: 319px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* line 293, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.left-box {
+  display: flex;
+  position: relative;
+}
+
+/* line 296, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.left-box__title {
+  order: 2;
+  z-index: 3;
+}
+
+/* line 299, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.left-box__img-elipse {
+  position: absolute;
+  top: 247px;
+  right: 297px;
+  z-index: 3;
+}
+
+/* line 304, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.left-box__second-ellipse {
+  position: absolute;
+  top: 144px;
+  right: 164px;
+  z-index: 2;
+}
+
+/* line 309, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.right-box {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 10px;
+}
+
+/* line 314, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.right-box__title {
+  margin-bottom: 20px;
+  margin-left: 7px;
+}
+
+/* line 317, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.main-text {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+/* line 320, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.main-text__box {
+  max-width: 479px;
+  margin-bottom: 30px;
+}
+
+/* line 325, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.footer {
+  max-height: 283px;
+  position: relative;
+}
+
+/* line 328, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.footer__right-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  float: right;
+}
+
+/* line 334, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.footer__title {
+  float: right;
+  margin-bottom: 20px;
+}
+
+/* line 339, ../../../../complited projects/Guitar school/src/sass/style.sass */
+.footer__img {
+  position: absolute;
+  left: -138px;
+  top: -49px;
+}
+
+/* line 343, ../../../../complited projects/Guitar school/src/sass/style.sass */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 1200px) {
+  /* line 349, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .container {
+    width: 1140px;
+  }
+}
+
+@media (max-width: 1199px) {
+  /* line 352, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .container {
+    width: 960px;
+  }
+  /* line 354, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .second-section {
+    overflow: hidden;
+    position: relative;
+    min-height: 627px;
+    padding-top: 32px;
+  }
+  /* line 359, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .second-section__container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }
+  /* line 364, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .second-section__second-ellipse {
+    position: absolute;
+    top: 280px;
+    left: -90px;
+    z-index: -1;
+  }
+  /* line 369, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .second-section__cards-box {
+    margin-bottom: 39px;
+  }
+  /* line 371, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .left-wrapper {
+    position: relative;
+  }
+  /* line 373, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .left-wrapper img {
+    width: 715px;
+    position: relative;
+    z-index: 5;
+  }
+  /* line 377, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  __rectangle-blue {
+    width: 601px;
+    height: 217px;
+    top: 94px;
+    left: -6px;
+    background: #5290EA;
+    border-radius: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(-64deg);
+    position: absolute;
+    z-index: 2;
+  }
+  /* line 388, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  __rectangle-orange {
+    width: 473px;
+    height: 190px;
+    left: -16px;
+    top: 127px;
+    background: #F28B64;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    transform: rotate(-50.81deg);
+    position: absolute;
+    z-index: 3;
+  }
+  /* line 399, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  __rectangle-grey {
+    width: 448px;
+    height: 206px;
+    left: 21px;
+    top: 136px;
+    background: #E2E2E2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    transform: rotate(-36.15deg);
+    position: absolute;
+    z-index: 1;
+  }
+  /* line 410, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .right-wrapper {
+    width: 372px;
+    position: absolute;
+    top: 150px;
+    right: 5px;
+    z-index: 5;
+  }
+  /* line 416, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .main-section {
+    background: #F0F0F0;
+    height: 659px;
+    padding-top: 16px;
+    position: relative;
+    overflow: hidden;
+  }
+  /* line 422, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .main-section__first-ellipse {
+    position: absolute;
+    top: 129px;
+    right: 1px;
+  }
+  /* line 426, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .main-section__second-ellipse {
+    top: 520px;
+  }
+  /* line 428, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .cards-item {
+    width: 320px;
+    height: 320px;
+    border-radius: 10px;
+    background: #E2E2E2;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    margin-right: 30px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  /* line 438, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .cards-item__img {
+    width: 187px;
+  }
+  /* line 440, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .cards-item__text {
+    font-size: 30px;
+    text-align: center;
+    transform: rotate(90deg);
+    width: 280px;
+    position: absolute;
+    top: 136px;
+    right: -69px;
+    font-weight: bold;
+  }
+  /* line 449, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .cards-item_orange {
+    background: #F28B64;
+  }
+  /* line 451, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .cards-item_blue {
+    background: #5290EA;
+  }
+  /* line 454, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .left-box__title {
+    order: 2;
+    z-index: 4;
+    margin-right: 65px;
+  }
+  /* line 459, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .footer__img {
+    position: absolute;
+    left: -190px;
+    top: -60px;
+  }
+  /* line 464, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .third-section__ring-ellipse {
+    position: absolute;
+    top: -98px;
+    right: -100px;
+    width: 246px;
+    height: 246px;
+  }
+  /* line 470, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .nav-menu__list {
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+  }
+}
+
+/*  Планшет вертикальная версия */
+@media (max-width: 991px) {
+  /* line 476, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .container {
+    width: 720px;
+  }
+  /* line 478, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .left-wrapper {
+    position: relative;
+  }
+  /* line 480, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .left-wrapper img {
+    width: 550px;
+    position: relative;
+    z-index: 5;
+  }
+  /* line 484, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .main-section {
+    background: #F0F0F0;
+    height: 525px;
+    padding-top: 16px;
+    position: relative;
+    overflow: hidden;
+  }
+  /* line 490, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .main-section__first-ellipse {
+    position: absolute;
+    top: 28px;
+    right: -22px;
+  }
+  /* line 494, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .title {
+    font-size: 62px;
+    position: relative;
+    font-weight: bold;
+  }
+  /* line 498, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .right-wrapper {
+    width: 372px;
+    position: absolute;
+    top: 75px;
+    right: -62px;
+    z-index: 5;
+  }
+  /* line 504, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .right-wrapper__icons-box {
+    margin-bottom: 3px;
+    padding-left: 10px;
+  }
+  /* line 507, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .right-wrapper__text {
+    font-size: 14px;
+    margin-bottom: 7px;
+    max-width: 301px;
+  }
+  /* line 511, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .buttons {
+    margin-bottom: 30px;
+  }
+  /* line 513, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .buttons__main-btn {
+    margin-right: 10px;
+    width: 175px;
+    height: 51px;
+    background: #F28B64;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  /* line 524, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .left-wrapper__rectangle-blue {
+    width: 384.95000000000005px;
+    height: 148px;
+    top: 114px;
+    left: -35px;
+    background: #5290EA;
+    border-radius: 100px;
+    box-shadow: 0px 4px 4px black;
+    transform: rotate(-64deg);
+    position: absolute;
+    z-index: 2;
+  }
+  /* line 535, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .left-wrapper__rectangle-orange {
+    width: 416px;
+    height: 149px;
+    left: -9px;
+    top: 126px;
+    background: #F28B64;
+    border-radius: 100px;
+    transform: rotate(-50.81deg);
+    position: absolute;
+    z-index: 3;
+  }
+  /* line 545, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .left-wrapper__rectangle-grey {
+    width: 406px;
+    height: 149px;
+    left: 32px;
+    top: 150px;
+    background: #E2E2E2;
+    border-radius: 100px;
+    transform: rotate(-36.15deg);
+    position: absolute;
+    z-index: 1;
+  }
+  /* line 555, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .main-section__second-ellipse {
+    top: 410px;
+    width: 246px;
+    height: 246px;
+  }
+  /* line 559, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .second-section__cards-box {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 564, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .cards-item:last-child {
+    margin-right: 30px;
+    margin-bottom: 0;
+  }
+  /* line 567, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .cards-item {
+    width: 360px;
+    height: 360px;
+    border-radius: 10px;
+    background: #E2E2E2;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    margin-bottom: 50px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  /* line 577, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .cards-item_orange {
+    background: #F28B64;
+  }
+  /* line 579, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .cards-item_blue {
+    background: #5290EA;
+  }
+  /* line 581, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .cards-item__text {
+    font-size: 42px;
+    text-align: center;
+    transform: rotate(90deg);
+    width: 280px;
+    position: absolute;
+    top: 133px;
+    right: -69px;
+    font-weight: bold;
+  }
+  /* line 591, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .icons-item__img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+  }
+  /* line 595, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .icons-item__text {
+    font-size: 12px;
+  }
+  /* line 597, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  span {
+    font-size: 33px;
+    font-weight: bold;
+  }
+  /* line 601, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .second-section__icons-box {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+  }
+  /* line 605, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .second-section__first-ellipse {
+    position: absolute;
+    top: 15px;
+    right: 103px;
+    z-index: -1;
+    width: 194px;
+  }
+  /* line 611, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .second-section__second-ellipse {
+    position: absolute;
+    top: 764px;
+    left: 62px;
+    z-index: -1;
+  }
+  /* line 616, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .title {
+    font-size: 62px;
+    position: relative;
+    font-weight: bold;
+    z-index: 4;
+  }
+  /* line 621, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .left-box {
+    display: none;
+    position: relative;
+    padding-bottom: 60px;
+  }
+  /* line 625, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .left-box__img-elipse {
+    position: absolute;
+    top: 215px;
+    right: -309px;
+    z-index: 2;
+  }
+  /* line 630, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .left-box__second-ellipse {
+    position: absolute;
+    top: 124px;
+    right: -478px;
+    z-index: 0;
+  }
+  /* line 635, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .title {
+    font-size: 54px;
+    position: relative;
+    font-weight: bold;
+    z-index: 4;
+  }
+  /* line 640, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .main-text__box {
+    max-width: 3400px;
+    margin-bottom: 30px;
+    font-size: 19px;
+  }
+  /* line 644, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .footer__img {
+    position: absolute;
+    left: -164px;
+    top: -60px;
+    width: 500px;
+  }
+  /* line 649, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .title_ftr-title {
+    font-size: 44px;
+  }
+  /* line 651, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .left-box__title {
+    display: none;
+  }
+  /* line 653, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .third-section__right-box {
+    z-index: 2;
+  }
+  /* line 655, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .third-section {
+    background: #F0F0F0;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 49px;
+    max-height: 500px;
+  }
+}
+
+/* Телефон горизонтальная версия */
+@media (max-width: 767px) {
+  /* line 664, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .container {
+    width: 540px;
+    overflow: hidden;
+  }
+  /* line 667, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .nav-menu {
+    display: fixed;
+    width: 50%;
+    height: 100vh;
+    z-index: 10;
+    background: #5290EA;
+    position: fixed;
+    top: 0;
+    right: -100%;
+  }
+  /* line 677, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .nav-menu__list-item {
+    margin-right: 0;
+    font-size: 30px;
+  }
+  /* line 680, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .nav-menu__list {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 0;
+  }
+  /* line 687, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .nav-menu_active {
+    display: block;
+    position: fixed;
+    right: 0;
+    transition: 1s all;
+  }
+  /* line 693, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .hamburger {
+    width: 30px;
+    position: fixed;
+    top: 30px;
+    right: 40px;
+    height: 14px;
+    z-index: 10;
+  }
+  /* line 700, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .hamburger_active {
+    z-index: 110;
+  }
+  /* line 703, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+    margin-bottom: -2px;
+  }
+  /* line 706, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 708, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 711, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .hamburger span {
+    background-color: black;
+    width: 100%;
+    height: 2px;
+    margin-bottom: 4px;
+    display: block;
+    transition: 1s all;
+  }
+  /* line 718, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .hamburger span:last-child {
+    margin-bottom: 0;
+  }
+  /* line 720, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .left-wrapper img {
+    width: 384px;
+    position: relative;
+    z-index: 5;
+  }
+  /* line 724, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .left-wrapper__rectangle-blue {
+    width: 310.95000000000005px;
+    height: 108px;
+    top: 99px;
+    left: -35px;
+    background: #5290EA;
+    border-radius: 100px;
+    transform: rotate(-64deg);
+    position: absolute;
+    z-index: 2;
+    display: none;
+  }
+  /* line 735, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .left-wrapper__rectangle-orange {
+    width: 300px;
+    height: 97px;
+    left: -9px;
+    top: 126px;
+    background: #F28B64;
+    border-radius: 100px;
+    transform: rotate(-50.81deg);
+    position: absolute;
+    z-index: 3;
+    display: none;
+  }
+  /* line 746, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .left-wrapper__rectangle-grey {
+    width: 295px;
+    height: 90px;
+    left: 32px;
+    top: 150px;
+    background: #E2E2E2;
+    border-radius: 100px;
+    transform: rotate(-36.15deg);
+    position: absolute;
+    z-index: 1;
+    display: none;
+  }
+  /* line 757, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .title {
+    font-size: 50px;
+    position: relative;
+    font-weight: bold;
+    z-index: 4;
+  }
+  /* line 762, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .main-section__first-ellipse {
+    position: absolute;
+    top: 6px;
+    right: 345px;
+  }
+  /* line 766, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .main-section__second-ellipse {
+    top: 143px;
+    width: 246px;
+    height: 242px;
+    left: 136px;
+  }
+  /* line 771, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .main-section {
+    background: #F0F0F0;
+    height: 393px;
+    padding-top: 16px;
+    position: relative;
+    overflow: hidden;
+  }
+  /* line 777, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .right-wrapper {
+    width: 372px;
+    position: absolute;
+    top: 12px;
+    right: -115px;
+    z-index: 5;
+  }
+  /* line 783, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .right-wrapper__text {
+    font-size: 17px;
+    margin-bottom: 17px;
+    max-width: 260px;
+  }
+  /* line 787, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .buttons__main-btn {
+    margin-right: 0;
+    width: 175px;
+    height: 51px;
+    background: #F28B64;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 22px;
+  }
+  /* line 798, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 801, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .buttons__icon-btn {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 110px;
+  }
+  /* line 805, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .cards-item {
+    width: 360px;
+    height: 360px;
+    border-radius: 10px;
+    background: #E2E2E2;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    margin-bottom: 50px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-right: 0;
+  }
+  /* line 816, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .cards-item_orange {
+    background: #F28B64;
+  }
+  /* line 818, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .cards-item_blue {
+    background: #5290EA;
+  }
+  /* line 820, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .second-section__first-ellipse {
+    position: absolute;
+    top: 15px;
+    right: 13px;
+    z-index: -1;
+    width: 194px;
+  }
+  /* line 826, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .second-section__second-ellipse {
+    position: absolute;
+    top: 764px;
+    left: 6px;
+    z-index: -1;
+  }
+  /* line 831, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .icons-item__img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  /* line 835, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  span {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  /* line 838, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .icons-item__text {
+    font-size: 9px;
+  }
+  /* line 840, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .main-text__box {
+    max-width: 3124px;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  /* line 844, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .third-section {
+    background: #F0F0F0;
+    position: relative;
+    overflow: hidden;
+    max-height: 547px;
+  }
+  /* line 849, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .title_ftr-title {
+    font-size: 37px;
+  }
+  /* line 851, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .footer__img {
+    display: none;
+    position: absolute;
+    left: -164px;
+    top: -60px;
+    width: 443px;
+  }
+  /* line 857, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .footer__right-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    float: right;
+  }
+  /* line 862, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .cards-item:last-child {
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  /* line 865, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .footer__right-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    float: right;
+    width: 505px;
+    margin-right: 34px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 873, ../../../../complited projects/Guitar school/src/sass/style.sass */
+  .container {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

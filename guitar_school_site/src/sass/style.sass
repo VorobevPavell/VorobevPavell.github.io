@@ -1,0 +1,875 @@
+@import "normalizez.scss"
+@import "resets.scss"
+*
+    box-sizing: border-box
+
+$color-blue: #5290EA
+$color-orange: #F28B64
+
+@font-face 
+    font-family: "MontserratT"
+    src: url('../font/Montserrat-Regular.ttf')
+    font-weight: regular
+    font-style: normal
+@font-face 
+    font-family: "MontserratT"
+    src: url('../font/Montserrat-SemiBold.ttf')
+    font-weight: bold
+    font-style: normal
+html
+    font-family: "MontserratT"
+    font-weight: regular
+
+.container
+    max-width: 1140px
+    margin: 0 auto 
+    position: relative
+.main-section
+    background: #F0F0F0
+    height: 800px
+    padding-top: 16px
+    position: relative
+    overflow: hidden
+    &__content-container
+        position: relative
+        display: flex
+        flex-direction: row
+    &__nav-container
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        height: 69px
+        align-items: center 
+        font-weight: bold
+    &__logo
+        height: 69px
+    &__first-ellipse
+        position: absolute
+        top: 129px
+        right: 80px
+    &__second-ellipse
+        position: absolute
+        right: -120px
+        top: 650px
+.nav-menu
+    &__list
+        display: flex
+        flex-direction: row
+    
+    &__list-item
+        margin-right: 64px
+        font-size: 18px
+        &:last-child
+            margin-right: 0px    
+.left-wrapper
+    position: relative
+    img
+        width: 883px
+        position: relative
+        z-index: 5
+    &__rectangle-blue
+        width: 565.95px
+        height: 220px
+        top: 159px
+        left: -30px
+        background: $color-blue
+        border-radius: 100px
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+        transform: rotate(-64deg)
+        position: absolute
+        z-index: 2
+    &__rectangle-orange
+        width: 618.43px
+        height: 220px
+        left: -30px
+        top: 160px
+        background: $color-orange
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+        border-radius: 100px
+        transform: rotate(-50.81deg)
+        position: absolute
+        z-index: 3
+    &__rectangle-grey
+        width: 608.97px
+        height: 220px
+        left: 10px
+        top: 190px
+        background: #E2E2E2
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+        border-radius: 100px
+        transform: rotate(-36.15deg)
+        position: absolute
+        z-index: 1
+.right-wrapper
+    width: 372px
+    position: absolute
+    top: 150px
+    right: 76px
+    z-index: 5
+    &__icons-box
+        margin-bottom: 1px
+        padding-left: 10px
+    &__title
+        margin-bottom: 5px 
+    &__text
+        font-size: 16px
+        margin-bottom: 20px
+
+.title
+    font-size: 72px
+    position: relative 
+    font-weight: bold
+    &__hr
+        margin: 0
+        border: none
+        border-top: 1px solid black
+        width: 65px
+        bottom: 0px
+        position: ablosute 
+    &_ftr-title
+        font-size: 60px
+.icons
+    display: inline-flex
+    &__item
+        border: 1px solid $color-blue
+        width: 40px
+        height: 40px
+        border-radius: 100px
+        margin-right: 17px
+        display: flex 
+        justify-content: center 
+        align-items: center 
+        &:last-child
+            margin-right: 0
+        i 
+            font-size: 21px
+    font-size: 21px
+.buttons
+    display: inline-flex
+    
+    &__icon-btn
+        display: inline-flex
+        align-items: center
+    &__main-btn
+        margin-right: 32px
+        width: 200px
+        height: 60px
+        background: $color-orange
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+        border-radius: 100px
+        border: none
+        color: white  
+        font-size: 18px 
+        font-weight: bold
+    img
+        margin-right: 12px
+        &__text
+            font-size: 16px
+            
+.ellipse
+    width: 194px
+    height: 194px
+    background: linear-gradient(143.92deg, rgba(237, 123, 80, 0.4) 14.85%, rgba(72, 138, 234, 0.4) 53.25%, rgba(44, 44, 44, 0.4) 85.74%)
+    display: flex
+    justify-content: center
+    align-items: center
+    border-radius: 150px
+
+    &_big
+        width: 282px
+        height: 282px
+    &__subtract
+        width: 129.33px
+        height: 129.33px
+        background: #F0F0F0
+        border-radius: 150px
+        &_white
+            background: white
+            width: 129.33px
+            height: 129.33px
+            border-radius: 150px
+        &_big
+            width: 188px
+            height: 188px
+        
+// Вторая секция
+.second-section
+    overflow: hidden
+    position: relative
+    min-height: 700px
+    padding-top: 32px
+    &__container 
+        position: relative
+    &__cards-box
+        padding-top: 40px
+        display: inline-flex
+        margin-bottom: 25px
+    &__icons-box
+        display: flex
+        justify-content: space-evenly
+    &__first-ellipse
+        position: absolute
+        top: 15px
+        right: -70px
+        z-index: -1
+        width: 194px
+    &__second-ellipse
+        position: absolute
+        top: 317px
+        left: -72px
+        z-index: -1
+    &__color
+        color: white
+        z-index: 10
+.cards-item
+    width: 360px
+    height: 360px
+    border-radius: 10px
+    background: #E2E2E2
+    display: flex
+    align-items: flex-end
+    position: relative
+    margin-right: 30px
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    &:last-child
+        margin-right: 0
+    &__img
+        width: 197px
+    &__text
+        font-size: 36px
+        text-align: center
+        transform: rotate(90deg)
+        width: 280px
+        position: absolute
+        top: 144px
+        right: -30px
+        font-weight: bold
+    &_orange
+        background: $color-orange
+    &_blue
+        background: $color-blue
+.icons-box
+    &__icons-item
+        display: inline-flex
+        align-items: flex-end
+span
+    font-size: 48px
+    font-weight: bold
+.icons-item
+    &__text
+        font-size: 18px
+    &__img
+        width: 80px
+        height: 80px
+        margin-right: 20px
+
+//Third-section block
+.third-section
+    background: #F0F0F0
+    position: relative
+    overflow: hidden
+    margin-bottom: 49px
+    &__container
+        min-height: 640px
+        padding-top: 46px
+        display: flex
+        justify-content: space-between
+        margin: 0 auto
+    &__ring-ellipse
+        position: absolute
+        top: -98px
+        right: -100px
+
+    &__left-box
+        display: flex
+        align-items: center
+        width: 542px
+        min-height: 319px
+        justify-content: flex-end
+        align-items: center
+    
+
+
+.left-box
+    display: flex
+    position: relative
+    &__title
+        order: 2
+        z-index: 3
+    &__img-elipse
+        position: absolute
+        top: 247px
+        right: 297px
+        z-index: 3
+    &__second-ellipse
+        position: absolute
+        top: 144px
+        right: 164px
+        z-index: 2
+.right-box
+    display: flex
+    flex-direction: column
+    position: relative
+    height: 10px
+    &__title
+        margin-bottom: 20px
+        margin-left: 7px
+.main-text
+    font-size: 18px
+    line-height: 22px
+    &__box
+        max-width: 479px
+        margin-bottom: 30px
+        
+//footer
+.footer
+    max-height: 283px
+    position: relative
+    &__right-box
+        display: flex
+        flex-direction: column
+        justify-content: flex-end
+        float: right
+    &__icons-box
+    &__title
+        float: right
+        margin-bottom: 20px
+
+
+    &__img
+        position: absolute
+        left: -138px
+        top: -49px
+a
+    text-decoration: none
+    color: black
+
+
+@media (max-width: 1200px)
+    .container
+        width: 1140px
+@media (max-width: 1199px)
+    .container
+        width: 960px
+    .second-section
+        overflow: hidden
+        position: relative
+        min-height: 627px
+        padding-top: 32px
+        &__container
+            display: flex
+            justify-content: center
+            align-content: center
+            flex-direction: column
+        &__second-ellipse
+            position: absolute
+            top: 280px
+            left: -90px
+            z-index: -1
+        &__cards-box
+            margin-bottom: 39px
+    .left-wrapper
+        position: relative
+        img
+            width: 715px
+            position: relative
+            z-index: 5
+    &__rectangle-blue
+        width: 601px
+        height: 217px
+        top: 94px
+        left: -6px
+        background: $color-blue
+        border-radius: 100px
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+        transform: rotate(-64deg)
+        position: absolute
+        z-index: 2
+    &__rectangle-orange
+        width: 473px
+        height: 190px
+        left: -16px
+        top: 127px
+        background: $color-orange
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+        border-radius: 100px
+        transform: rotate(-50.81deg)
+        position: absolute
+        z-index: 3
+    &__rectangle-grey
+        width: 448px
+        height: 206px
+        left: 21px
+        top: 136px
+        background: #E2E2E2
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+        border-radius: 100px
+        transform: rotate(-36.15deg)
+        position: absolute
+        z-index: 1
+    .right-wrapper
+        width: 372px
+        position: absolute
+        top: 150px
+        right: 5px
+        z-index: 5
+    .main-section
+        background: #F0F0F0
+        height: 659px
+        padding-top: 16px
+        position: relative
+        overflow: hidden
+        &__first-ellipse
+            position: absolute
+            top: 129px
+            right: 1px
+        &__second-ellipse
+            top: 520px
+    .cards-item 
+        width: 320px
+        height: 320px
+        border-radius: 10px
+        background: #E2E2E2
+        display: flex
+        align-items: flex-end
+        position: relative
+        margin-right: 30px
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+        &__img
+            width: 187px
+        &__text
+            font-size: 30px
+            text-align: center
+            transform: rotate(90deg)
+            width: 280px
+            position: absolute
+            top: 136px
+            right: -69px
+            font-weight: bold
+        &_orange
+            background: $color-orange
+        &_blue
+            background: $color-blue
+    .left-box
+        &__title 
+            order: 2
+            z-index: 4
+            margin-right: 65px
+    .footer
+        &__img 
+            position: absolute
+            left: -190px
+            top: -60px
+    .third-section
+        &__ring-ellipse
+            position: absolute
+            top: -98px
+            right: -100px
+            width: 246px
+            height: 246px
+    .nav-menu__list 
+        display: flex
+        flex-direction: row
+        margin-right: 30px
+/*  Планшет вертикальная версия */
+@media (max-width: 991px)
+    .container
+        width: 720px
+    .left-wrapper
+        position: relative
+        img
+            width: 550px
+            position: relative
+            z-index: 5
+    .main-section 
+        background: #F0F0F0
+        height: 525px
+        padding-top: 16px 
+        position: relative
+        overflow: hidden
+        &__first-ellipse
+            position: absolute
+            top: 28px
+            right: -22px
+    .title 
+        font-size: 62px
+        position: relative
+        font-weight: bold
+    .right-wrapper 
+        width: 372px
+        position: absolute
+        top: 75px
+        right: -62px
+        z-index: 5
+        &__icons-box
+            margin-bottom: 3px
+            padding-left: 10px
+        &__text
+            font-size: 14px
+            margin-bottom: 7px
+            max-width: 301px
+    .buttons 
+        margin-bottom: 30px
+        &__main-btn
+            margin-right: 10px
+            width: 175px
+            height: 51px
+            background: #F28B64
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+            border-radius: 100px
+            border: none
+            color: white
+            font-size: 16px
+            font-weight: bold
+    .left-wrapper__rectangle-blue 
+        width: 384.95000000000005px
+        height: 148px
+        top: 114px
+        left: -35px
+        background: $color-blue
+        border-radius: 100px
+        box-shadow: 0px 4px 4px rgb(0, 0, 0 / 25%)
+        transform: rotate(-64deg)
+        position: absolute
+        z-index: 2
+    .left-wrapper__rectangle-orange 
+        width: 416px
+        height: 149px
+        left: -9px
+        top: 126px
+        background: #F28B64
+        border-radius: 100px
+        transform: rotate(-50.81deg)
+        position: absolute
+        z-index: 3
+    .left-wrapper__rectangle-grey 
+        width: 406px
+        height: 149px
+        left: 32px
+        top: 150px
+        background: #E2E2E2
+        border-radius: 100px
+        transform: rotate(-36.15deg)
+        position: absolute
+        z-index: 1
+    .main-section__second-ellipse
+        top: 410px
+        width: 246px
+        height: 246px
+    .second-section__cards-box 
+        padding-top: 40px
+        display: flex
+        flex-direction: column
+        align-items: center
+    .cards-item:last-child
+        margin-right: 30px
+        margin-bottom: 0
+    .cards-item 
+        width: 360px
+        height: 360px
+        border-radius: 10px
+        background: #E2E2E2
+        display: flex
+        align-items: flex-end
+        position: relative
+        margin-bottom: 50px
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+        &_orange
+            background: $color-orange
+        &_blue
+            background: $color-blue
+        &__text
+            font-size: 42px
+            text-align: center
+            transform: rotate(90deg)
+            width: 280px
+            position: absolute
+            top: 133px
+            right: -69px
+            font-weight: bold
+    .icons-item
+        &__img 
+            width: 60px
+            height: 60px
+            margin-right: 10px
+        &__text
+            font-size: 12px
+    span
+        font-size: 33px
+        font-weight: bold   
+    .second-section
+        &__icons-box 
+            display: flex
+            justify-content: space-evenly
+            margin-bottom: 30px
+        &__first-ellipse 
+            position: absolute
+            top: 15px
+            right: 103px
+            z-index: -1
+            width: 194px
+        &__second-ellipse
+            position: absolute
+            top: 764px
+            left: 62px
+            z-index: -1
+    .title 
+        font-size: 62px
+        position: relative
+        font-weight: bold
+        z-index: 4
+    .left-box 
+        display: none
+        position: relative
+        padding-bottom: 60px
+        &__img-elipse 
+            position: absolute
+            top: 215px
+            right: -309px
+            z-index: 2
+        &__second-ellipse
+            position: absolute
+            top: 124px
+            right: -478px
+            z-index: 0
+    .title
+        font-size: 54px
+        position: relative
+        font-weight: bold
+        z-index: 4
+    .main-text__box 
+        max-width: 3400px
+        margin-bottom: 30px
+        font-size: 19px
+    .footer__img 
+        position: absolute
+        left: -164px
+        top: -60px
+        width: 500px
+    .title_ftr-title 
+        font-size: 44px
+    .left-box__title
+        display: none
+    .third-section__right-box
+        z-index: 2
+    .third-section 
+        background: #F0F0F0
+        position: relative
+        overflow: hidden
+        margin-bottom: 49px
+        max-height: 500px
+
+/* Телефон горизонтальная версия */
+@media (max-width: 767px)
+    .container
+        width: 540px
+        overflow: hidden
+    .nav-menu
+        display: fixed
+        width: 50%
+        height: 100vh
+        z-index: 10
+        background: $color-blue
+        position: fixed
+        top: 0
+        right: -100%
+        
+        &__list-item
+            margin-right: 0
+            font-size: 30px
+        &__list
+            display: flex
+            flex-direction: column
+            height: 100%
+            justify-content: space-evenly
+            align-items: center
+            margin-right: 0
+        &_active
+            display: block
+            position: fixed
+            right: 0
+            transition: 1s all
+
+    .hamburger
+        width: 30px
+        position: fixed
+        top: 30px
+        right: 40px
+        height: 14px
+        z-index: 10
+        &_active
+            z-index: 110
+            span
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                    margin-bottom: -2px
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+                &:nth-child(2)
+                    display: none
+                    
+        span
+            background-color: black
+            width: 100%
+            height: 2px
+            margin-bottom: 4px
+            display: block
+            transition: 1s all
+            &:last-child
+                margin-bottom: 0
+    .left-wrapper img 
+        width: 384px
+        position: relative
+        z-index: 5
+    .left-wrapper__rectangle-blue 
+        width: 310.95000000000005px
+        height: 108px
+        top: 99px
+        left: -35px
+        background: #5290EA
+        border-radius: 100px
+        transform: rotate(-64deg)
+        position: absolute
+        z-index: 2
+        display: none
+    .left-wrapper__rectangle-orange 
+        width: 300px
+        height: 97px
+        left: -9px
+        top: 126px
+        background: #F28B64
+        border-radius: 100px
+        transform: rotate(-50.81deg)
+        position: absolute
+        z-index: 3
+        display: none
+    .left-wrapper__rectangle-grey 
+        width: 295px
+        height: 90px
+        left: 32px
+        top: 150px
+        background: #E2E2E2
+        border-radius: 100px
+        transform: rotate(-36.15deg)
+        position: absolute
+        z-index: 1
+        display: none
+    .title 
+        font-size: 50px
+        position: relative
+        font-weight: bold
+        z-index: 4
+    .main-section__first-ellipse 
+        position: absolute
+        top: 6px
+        right: 345px
+    .main-section__second-ellipse 
+        top: 143px
+        width: 246px
+        height: 242px
+        left: 136px
+    .main-section 
+        background: #F0F0F0
+        height: 393px
+        padding-top: 16px
+        position: relative
+        overflow: hidden
+    .right-wrapper 
+        width: 372px
+        position: absolute
+        top: 12px
+        right: -115px
+        z-index: 5
+    .right-wrapper__text 
+        font-size: 17px
+        margin-bottom: 17px
+        max-width: 260px
+    .buttons__main-btn 
+        margin-right: 0
+        width: 175px
+        height: 51px
+        background: #F28B64
+        border-radius: 100px
+        border: none
+        color: white
+        font-size: 16px
+        font-weight: bold
+        margin-bottom: 22px
+    .buttons 
+        display: flex
+        flex-direction: column
+    .buttons__icon-btn 
+        display: inline-flex
+        align-items: center
+        margin-left: 110px
+    .cards-item 
+        width: 360px    
+        height: 360px   
+        border-radius: 10px 
+        background: #E2E2E2 
+        display: flex   
+        align-items: flex-end   
+        position: relative  
+        margin-bottom: 50px 
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+        margin-right: 0
+        &_orange
+            background: $color-orange
+        &_blue
+            background: $color-blue
+    .second-section__first-ellipse 
+        position: absolute
+        top: 15px
+        right: 13px
+        z-index: -1
+        width: 194px
+    .second-section__second-ellipse 
+        position: absolute
+        top: 764px
+        left: 6px
+        z-index: -1
+    .icons-item__img 
+        width: 40px
+        height: 40px
+        margin-right: 10px
+    span 
+        font-size: 25px
+        font-weight: bold
+    .icons-item__text 
+        font-size: 9px
+    .main-text__box 
+        max-width: 3124px
+        margin-bottom: 15px
+        font-size: 14px
+    .third-section 
+        background: #F0F0F0
+        position: relative
+        overflow: hidden
+        max-height: 547px
+    .title_ftr-title 
+        font-size: 37px
+    .footer__img 
+        display: none
+        position: absolute
+        left: -164px
+        top: -60px
+        width: 443px
+    .footer__right-box 
+        display: flex
+        flex-direction: row
+        justify-content: flex-end
+        float: right
+    .cards-item:last-child 
+        margin-right: 0
+        margin-bottom: 0
+    .footer__right-box 
+        display: flex
+        flex-direction: row
+        justify-content: flex-end
+        float: right
+        width: 505px
+        margin-right: 34px
+@media (max-width: 575px)
+    .container
+        width: 100%
+        
